@@ -28,6 +28,7 @@ This project is **for learning only**.
 1. Open the repository in GitHub Pages (enable it under **Settings → Pages**).  
 2. Run `polite_crawler.py` in Google Colab or your local Python environment.  
 3. Observe how the crawler politely checks `robots.txt` and avoids restricted pages.
+4. Optional: Run `polite_crawler_visible.py` in Google Colab or your local Python environment. Observe the Output.
 
 ---
 
