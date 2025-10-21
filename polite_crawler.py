@@ -1,5 +1,7 @@
 # Polite crawler (paste into Colab)
-!pip install requests beautifulsoup4 --quiet
+#!pip install requests beautifulsoup4 --quiet
+import os
+os.system("pip install requests beautifulsoup4 --quiet")
 
 import requests
 from urllib.parse import urljoin, urlparse
