@@ -12,7 +12,7 @@ HEADERS = {'User-Agent': USER_AGENT}
 RATE = 1.0  # seconds between requests
 MAX_LINKS = 30
 
-seed = 'repo:smcolab2007-dotcom/demo-crawler-site/'  # <-- GitHub Pages URL
+seed = 'https://smcolab2007-dotcom.github.io/demo-crawler-site/'  # <-- GitHub Pages URL
 
 # robots.txt check
 rp = urllib.robotparser.RobotFileParser()
