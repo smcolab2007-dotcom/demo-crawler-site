@@ -58,6 +58,18 @@ https://your-username.github.io/your-demo-repo/).
 3. Observe how the crawler politely checks `robots.txt` and avoids restricted pages.
 4. Optional: Run `polite_crawler_visible.py` in Google Colab or your local Python environment. Observe the Output.
 
+## 🧑‍🎓 For Students — How to Run in Google Colab
+
+# STEP 1 — Get your instructor's GitHub repo
+!git clone https://github.com/smcolab2007-dotcom/demo-crawler-site.git
+%cd demo-crawler-site
+
+# STEP 2 — Install required packages
+!pip install requests beautifulsoup4 --quiet
+
+# STEP 3 — Run the crawler
+!python polite_crawler.py
+
 ---
 
 ## 📘 License
