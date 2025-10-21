@@ -1,5 +1,8 @@
 # Polite crawler with visible text extraction
-!pip install requests beautifulsoup4 --quiet
+#!pip install requests beautifulsoup4 --quiet
+import os
+os.system("pip install requests beautifulsoup4 --quiet")
+
 
 import requests
 from urllib.parse import urljoin, urlparse
