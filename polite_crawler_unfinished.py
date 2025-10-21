@@ -78,8 +78,17 @@ while queue and len(seen) < MAX_LINKS:
     seen.add(url)
     time.sleep(RATE)
 
+# --- existing code above stays the same ---
+
 print('\nCrawl results:')
 for u, t in results.items():
     print('-', u, '->', t)
 
+# ✅ Save crawl results to a JSON file so Colab can load it later
+import json
+with open("results.json", "w") as f:
+    json.dump(results, f, indent=2)
+print("\n✅ Results saved to results.json")
+
+# Note: This crawler only fetches public HTML. It will not bypass logins or access protected endpoints.
 # Note: This crawler only fetches public HTML. It will not bypass logins or access protected endpoints.
