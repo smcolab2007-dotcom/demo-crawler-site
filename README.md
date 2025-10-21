@@ -23,6 +23,34 @@ This project is **for learning only**.
 
 ---
 
+⚠️ Safety Note — Ethical Crawling
+
+This crawler is for learning only. Use it only on your own GitHub Pages sites or other pages that explicitly allow crawling in their robots.txt.
+
+❌ Do not use it on:
+
+.Google (google.com)
+
+.Facebook (facebook.com)
+
+.Twitter/X (twitter.com)
+
+.Instagram (instagram.com)
+
+.LinkedIn (linkedin.com)
+
+.Any site that disallows bots or needs login
+
+
+These platforms block automated access and track bot traffic for security. Using a crawler there violates their Terms of Service and data protection laws.
+
+✅ Safe practice:
+Replace the seed URL only with your own public demo repo (for example,
+https://your-username.github.io/your-demo-repo/).
+
+
+
+
 ## 🧭 How to Use
 
 1. Open the repository in GitHub Pages (enable it under **Settings → Pages**).  
