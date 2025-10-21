@@ -4,7 +4,8 @@ A simple educational demo showing how to build and test a basic web page and an 
 
 ## 🚀 Project Structure
 
-demo-crawler-site/ ├── index.html        → Public page (OK to crawl) ├── private.html      → Private page (blocked by robots.txt) ├── mixed.html        → Mixed content (public + hidden section) ├── robots.txt        → Controls crawler behavior └── polite_crawler.py → Example polite crawler (for your own test site)
+demo-crawler-site/ ├── index.html        → Public page (OK to crawl) ├── private.html      → Private page (blocked by robots.txt) ├── mixed.html        → Mixed content (public + hidden section) ├── robots.txt        → Controls crawler behavior └── polite_crawler.py                 ← fixed URL version
+└── polite_crawler_input_url.py       ← runtime input version (recommended for students)
 
 ---
 
