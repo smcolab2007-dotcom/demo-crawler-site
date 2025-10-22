@@ -75,8 +75,8 @@ https://your-username.github.io/your-demo-repo/).
 ## SNA PART:
  Run `sna_polite_crawler_unfinished.py`
 
-## Matrics Calculations:
- Run `sna_matrics_polite_crawler_unfinished.py`
+## Metrics Calculations:
+ Run `sna_metrics_polite_crawler_unfinished.py`
 
 ## 📘 License
 
